@@ -31,6 +31,7 @@ function filterProducts(products, query, selectedUser) {
 export const App = () => {
   const [searchField, setSearchField] = useState('');
   const [selectedUser, setSelectedUser] = useState('All');
+
   const visibleProducts = filterProducts(
     productsFromServer,
     searchField,
