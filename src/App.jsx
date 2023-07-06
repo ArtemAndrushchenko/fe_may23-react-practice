@@ -248,9 +248,7 @@ export const App = () => {
                     <td className="has-text-weight-bold" data-cy="ProductId">
                       {product.id}
                     </td>
-
                     <td data-cy="ProductName">{product.name}</td>
-
                     <td data-cy="ProductCategory">
                       {category.icon}
                       {' '}
